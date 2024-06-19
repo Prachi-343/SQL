@@ -1,0 +1,14 @@
+create database school;
+use school;
+create table student(roll_no int, First_name varchar(30),last_name varchar(30),contact int(20),city varchar (10),dob varchar(10));
+insert into student values(1,"Prachi","Mate","9561384209","pune","2003-04-03");
+insert into student values(2,"Siddarth","Gadge","8625874209","Mumbai","2003-09-03");
+insert into student values(3,"Omkar","Thorat","7276195350","Mumbai","2003-05-12");
+insert into student values(4,"Samrudhi","Gadge","8010187730","Pune","2003-12-05");
+insert into student values(5,"Harshad","Mate","9960625368","Pune","2004-12-12");
+insert into student values(6,"Sanika","Shelke","9835457235","pune","2003-07-09");
+insert into student values(7,"Manjusha","Kute","7565324587","pune","2003-03-17");
+insert into student values(8,"Monika","Datir","8754236512","pune","2003-11-06");
+insert into student values(9,"Sakshi","Bhor","9856324578","pune","2003-09-07");
+insert into student values(10,"Akanksha","Shelke","8532651894","pune","2003-10-21");
+select * from student;
